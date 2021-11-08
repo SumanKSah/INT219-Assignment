@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+    
+body {
+    width: 100%;
+}
+
+.main {
+    background: url("./Images/background_balloon.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0px -40px ;
+    width: 100vw;
+   height: 650px;
+}
+
+.nav {
+    display: flex;
+    size: 28px;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.nav ul {
+    margin-left: 100px;
+    width: 600px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
