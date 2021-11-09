@@ -77,6 +77,11 @@ body {
     color: white;
 }
 
+#btnSearch:active {
+    background: white;
+    color: black;
+}
+
 .content {
     margin: 100px;
     color: white;
@@ -103,4 +108,9 @@ body {
     margin-right: 15px;
     font-weight: bolder;
     margin-top: 10px;
+}
+
+.content > button:active, #hotline:active {
+    background: white;
+    color: black;
 }
