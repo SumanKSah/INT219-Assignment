@@ -59,19 +59,19 @@
         <button id="btnSearch">Search</button>
     </div>
 
-    <div class="userAccount">
+    <div class="userAccount" id="userAccount">
         <div class="leftSection"></div>
-        <div class="signin">
+        <div class="signin" id="signinColumn">
             <p>Sign In</p>
 
-            <form action="" name="SignInForm" class="form">
+            <form action="" name="SignInForm" class="form" id="signinSubmit">
                 <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter Username">
+                <input type="text" id="username" placeholder="Enter Username" required>
                 
                 <br>
 
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter Password">
+                <input type="password" id="password" placeholder="Enter Password" required>
 
                 <br>
 
@@ -79,22 +79,22 @@
             </form>
         </div>
 
-        <div class="signup">
+        <div class="signup" id="signupColumn">
             <p>Sign Up</p>
 
-            <form action="" name="SignUpForm" class="form">
+            <form action="" name="SignUpForm" class="form" id="signupSubmit">
                 <label for="username">Name</label>
-                <input type="text" id="name" placeholder="Enter Name">
+                <input type="text" id="name" placeholder="Enter Name" required>
 
                 <br>
 
                 <label for="age">Age</label>
-                <input type="number" id="age" placeholder="Enter Age">
+                <input type="number" id="age" placeholder="Enter Age" required>
                 
                 <br>
 
                 <label for="password">Password</label>
-                <input type="password" id="pass" placeholder="Enter Password">
+                <input type="password" id="pass" placeholder="Enter Password" required>
 
                 <br>
 
