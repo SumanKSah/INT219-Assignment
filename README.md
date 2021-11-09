@@ -14,6 +14,6 @@ A basic landing page with login and sign up form. <br><br>
 <br>
 <center> Sign Up Page </center> 
 
-![Signup Page](Images/Signup.png)
+![Signup Page](Images/signup.png)
 
 <hr>
